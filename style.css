@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	min-height: 2.3rem;
+	background-color: rgb(33, 35, 46);
+	color: #fdfdfd;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 90vh;
+	background: rgb(127, 127, 151);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+}
+
+.dados {
+	padding: 20px 0;
+}
+
+input {
+	margin: 10px 5px;
+	text-align: center;
+}
+
+input:nth-child(2) {
+	width: 15vw;
+	max-width: 100px;
+}
+
+button {
+	padding: 1px 5px;
+}
+
+.resultado {
+	width: 10rem;
+	height: 4rem;
+	border-radius: 15px;
+	border: 1px solid rgb(33, 35, 46);
+	margin-top: 15px;
+}

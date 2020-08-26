@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="style.css">
+
+	<title>True or False?</title>
+</head>
+<body>
+	
+	<header>
+		<h1>Comparador de Valores</h1>
+	</header>
+
+	<main>
+
+		<section class="container dados">
+
+			<p>Insira suas expressões e selecione a operação</p>
+
+			<div class="campos">
+				<input type="text" placeholder="Primeiro valor">
+				<select name="Operador" id="">
+					<option value="==">=</option>
+					<option value=">">></option>
+					<option value="<"><</option>
+					<option value=">=">>=</option>
+					<option value="<="><=</option>
+				</select>
+				<input type="text" placeholder="Segundo Valor">
+			</div>
+
+			<button>Go</button>
+			
+		</section>
+
+		<div class="container resultado"></div>
+
+	</main>
+
+	<script src="index.js"></script>
+
+</body>
+</html>
